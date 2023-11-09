@@ -24,7 +24,7 @@ Your assignment page on Canvas should contain instructions for submitting this p
 | 4 | PUT    | /api/posts/:id          | Updates the post with the specified id using data from the request body and **returns the modified document**, not the original |
 | 5 | DELETE | /api/posts/:id          | Removes the post with the specified id and returns the **deleted post object**                                                  |
 | 6 | GET    | /api/posts/:id/comments | Returns an **array of all the comment objects** associated with the post with the specified id                                  |
-
+<!-- 
 #### 1 [GET] /api/posts
 
 - If there's an error in retrieving the _posts_ from the database:
@@ -40,7 +40,7 @@ Your assignment page on Canvas should contain instructions for submitting this p
 
 - If there's an error in retrieving the _post_ from the database:
   - respond with HTTP status code `500`.
-  - return the following JSON: `{ message: "The post information could not be retrieved" }`.
+  - return the following JSON: `{ message: "The post information could not be retrieved" }`. -->
 
 #### 3 [POST] /api/posts
 
